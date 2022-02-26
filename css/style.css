@@ -1,0 +1,197 @@
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.container {
+    display: flex;
+    background-color: #3c3c3c;
+    width: 38%;
+    height: 125px;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 28%;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 62%;
+    height: 125px;
+    top: 0;
+    left: 550px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 75px;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+.inline-block1 {
+    display: flex;
+    padding-right: 75px;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 107.5px;
+}
+.insta:hover {
+    transform: scale(1.25);
+}
+.beha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.beha:hover {
+    transform: scale(1.25);
+}
+.linked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.linked:hover {
+    transform: scale(1.25);
+}
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: #3c3c3c;
+    width: 100%;
+    height: 274px;
+    margin: 100px 0 0 0;
+    align-items: center;
+}
+.logo2 {
+    display: flex;
+    align-items: center;
+    margin-left: 10.6%;
+    padding-right: 102px;
+}
+.inline-block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+
+}
+.container9 {
+    display: flex;
+    background-color: #3c3c3c;
+    width: 365px;
+    height: 175px;
+    margin-left: 5.2%;
+    border: 1px solid white;
+}
+
+.connect {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 5% 10% 0;
+    width: 500px;
+    font-size: 18pt;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -134.25%;
+    margin-top: 10%;
+}
+.instagram:hover {
+    transform: scale(1.25);
+}
+
+.behance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 10%;
+}
+.behance:hover {
+    transform: scale(1.25);
+}
+
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 10%;
+}
+.linkedin:hover {
+    transform: scale(1.25);
+}
+
+
+@media only screen and (max-width: 600px){
+    .flexContainer {
+        padding-top: 50px;
+        height: 825px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .researcher {
+        width: 100%;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .uxDesigner {
+        width: 100%;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .uiDesigner {
+        width: 100%;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .idDesigner {
+        width: 100%;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .workGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "loca"
+        "locaSummary"
+        "csa"
+        "csaSummary"
+        "ths"
+        "thsSummary"
+        ;
+    }
+    h4 {
+        padding-right: 5px;
+        font-size: 16pt;
+    }
+    p {
+        font-size: 16pt;
+    }
+}
