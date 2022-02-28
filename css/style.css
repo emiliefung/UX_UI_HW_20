@@ -67,7 +67,37 @@ nav {
     transform: scale(1.25);
 }
 
+.container3 {
+    display: flex;
+    background-color: #ffbf34;
+    margin: -8px 0 0 0;
+}
+.back {
+    display: flex;
+    align-items: center;
+    margin-left: 11%;
+}
+.backto {
+    display: flex;
+    align-items: center;
+    font-size: 12pt;
+    padding: 5px;
+}
 
+.jumbotron {
+    background-image: url("../images/ths-banner-background.png");
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron-text-1 {
+    font-size: 20pt;
+    color: white;
+    padding-bottom: 25px;
+}
+.jumbotron-text-2 {
+    font-size: 35pt;
+    color: white;
+}
 
 
 
