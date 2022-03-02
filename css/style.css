@@ -94,7 +94,7 @@ nav {
     background-position: center;
 }
 .jumbotron-text {
-    
+    margin-left: 7%;
 }
 .jumbotron-text-1 {
     font-size: 20pt;
@@ -110,7 +110,11 @@ nav {
 
 
 .background-card {
-    margin: -32px 0 0 0;
+    margin-top: -32px;
+    margin-left: 14.5%;
+}
+.background-image-card {
+    margin-top: -32px;
 }
 .background h2 {
     color: #ffbf34;
@@ -121,10 +125,12 @@ h2 {
     font-size: 25pt;
 }
 p {
+    color: #3c3c3c;
     font-size: 16pt;
 }
 .probsol-card {
-    padding: 100px 0 150px 0;
+    padding: 100px 0 100px 0;
+    margin-left: 14.5%;
 }
 .problem {
     color: #943b35;
@@ -141,8 +147,40 @@ p {
 }
 
 
+#collaborators {
+    margin-left: 10.5%;
+}
+#collaborators h2 {
+    color: #516365;
+    font-weight: bold;
+    padding: 35px 0 25px 0;
+}
 
-
+#myroles h2 {
+    color: #516365;
+    font-weight: bold;
+    padding: 35px 0 25px 0;
+}
+#buttons {
+    margin-top: 50px;
+}
+button {
+    display: flex;
+    width: fit-content;
+    color: #3c3c3c;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #ffbf34;
+    border-radius: 5pt;
+    font-size: 16pt;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #ffbf34;
+}
+.casestudy {
+    margin-bottom: 20px;
+}
 
 
 
@@ -186,6 +224,7 @@ footer {
     margin: 5% 10% 0;
     width: 500px;
     font-size: 18pt;
+    font-weight: bold;
 }
 
 .instagram {
