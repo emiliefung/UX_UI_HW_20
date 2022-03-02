@@ -67,6 +67,8 @@ nav {
     transform: scale(1.25);
 }
 
+
+
 .container3 {
     display: flex;
     background-color: #ffbf34;
@@ -84,10 +86,15 @@ nav {
     padding: 5px;
 }
 
+
+
 .jumbotron {
     background-image: url("../images/ths-banner-background.png");
     background-size: cover;
     background-position: center;
+}
+.jumbotron-text {
+    
 }
 .jumbotron-text-1 {
     font-size: 20pt;
@@ -95,9 +102,47 @@ nav {
     padding-bottom: 25px;
 }
 .jumbotron-text-2 {
-    font-size: 35pt;
+    font-size: 50pt;
     color: white;
+    padding: -25px;
 }
+
+
+
+.background-card {
+    margin: -32px 0 0 0;
+}
+.background h2 {
+    color: #ffbf34;
+    padding: 0 0 25px 0;
+    font-weight: bold;
+}
+h2 {
+    font-size: 25pt;
+}
+p {
+    font-size: 16pt;
+}
+.probsol-card {
+    padding: 100px 0 150px 0;
+}
+.problem {
+    color: #943b35;
+    padding: 0 0 25px 0;
+    font-weight: bold;
+}
+.solution {
+    color: #67bb49;
+    padding: 35px 0 25px 0;
+    font-weight: bold;
+}
+.probsol-image-card {
+    padding: 100px 0 150px 0;
+}
+
+
+
+
 
 
 
